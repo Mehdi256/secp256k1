@@ -79,7 +79,7 @@ if __name__ == '__main__':
         h160 = file.read().split()
     h160 = set(h160)
     print('Total HASH160 Loaded and Checking : ',str (line_count))
-    howmany=int(input("Number of Cores CPU -> "))   
+    howmany=int(input("Number of Cores CPU -> 10"))   
     start=1
     stop= 10000000000
     print("Starting search... Please Wait min range: " + str(start))
