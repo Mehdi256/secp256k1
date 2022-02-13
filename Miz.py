@@ -63,7 +63,7 @@ def main(counter, start, stop, h160):
             f.write('\nMatching HASH160 Uncompressed Found : ' + hash160u)
             f.close()
         else:
-            print(hash160, ' : Keys/s : ', str(speed), end='\r')
+            print('\hash160, ' : Keys/s : ', str(speed), end='\r')
             #print('\nHASH160 Uncompressed : ', hash160u, '\nHASH160 Compressed : ', hash160, '\nPrivatekey (dec): ', ran, '\nPrivatekey (hex): ', HEX)
 
 
